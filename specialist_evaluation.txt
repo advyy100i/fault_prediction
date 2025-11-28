@@ -1,0 +1,26 @@
+Specialist Model Evaluation
+===========================
+
+Rows evaluated: 330
+Accuracy: 0.9970
+F1 macro: 0.9959
+F1 micro: 0.9970
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0     1.0000    0.9783    0.9890        46
+           1     1.0000    1.0000    1.0000       115
+           2     0.9891    1.0000    0.9945        91
+           3     1.0000    1.0000    1.0000        78
+
+    accuracy                         0.9970       330
+   macro avg     0.9973    0.9946    0.9959       330
+weighted avg     0.9970    0.9970    0.9970       330
+
+
+Confusion Matrix:
+[[ 45   0   1   0]
+ [  0 115   0   0]
+ [  0   0  91   0]
+ [  0   0   0  78]]
